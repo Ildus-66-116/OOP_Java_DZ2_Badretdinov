@@ -11,7 +11,7 @@ public class Alive extends Sozdaniya{
 
     @Override
     void running(int runDistance) {
-        if (runDistance < run) {
+        if (runDistance <= run) {
             System.out.println(name + " пробежал " + runDistance + " метров.");
         }else {
             System.out.println(name + " не добежал, только " + run + " метров.");
@@ -21,10 +21,10 @@ public class Alive extends Sozdaniya{
 
     @Override
     void jumping(int jumpHeight) {
-        if (jumpHeight < jump) {
-            System.out.println(name + " прыгнул " + jumpHeight + " метров.");
+        if (jumpHeight <= jump) {
+            System.out.println(name + " перепрыгнул " + jumpHeight + " метра.");
         }else {
-            System.out.println(name + " не смог перепрыгнуть " + jump + " метров.");
+            System.out.println(name + " не смог перепрыгнуть " + jumpHeight + " метра.");
         }
     }
 }

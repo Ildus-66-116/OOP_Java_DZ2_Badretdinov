@@ -1,9 +1,9 @@
 package org.example.DZ2;
 
-public class Human extends Alive {
+public class Cat extends Alive{
     Integer age;
 
-    public Human(String name, int run, int jump, String view, Integer age) {
+    public Cat(String name, int run, int jump, String view, Integer age) {
         super(name, run, jump, view);
         this.age = age;
     }

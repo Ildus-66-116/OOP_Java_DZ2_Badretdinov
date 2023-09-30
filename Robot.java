@@ -29,9 +29,9 @@ public class Robot extends Sozdaniya{
     @Override
     void jumping(int jumpHeight) {
         if (jumpHeight < jump) {
-            System.out.println(name + " прыгнул " + jumpHeight + " метров.");
+            System.out.println(name + " перепрыгнул " + jumpHeight + " метра.");
         }else {
-            System.out.println(name + " не смог перепрыгнуть " + jump + " метров.");
+            System.out.println(name + " не смог перепрыгнуть " + jump + " метра.");
         }
     }
 }
